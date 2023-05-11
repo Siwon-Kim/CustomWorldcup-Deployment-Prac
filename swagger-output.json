@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "월드컵 어쩌구",
-    "description": "17조는 짱짱맨이다",
+    "description": "항해 14기 노드반 시원스쿨조 백엔드 서버",
     "version": "1.0.0"
   },
   "host": "3.84.163.49/",
