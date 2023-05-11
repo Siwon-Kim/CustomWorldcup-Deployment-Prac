@@ -25,6 +25,7 @@ jobs:
       run: npm ci
     - name: Load env file
       run: |
+        touch .env
         echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> .env
         echo "REFRESH_EXPIRES=${{ secrets.REFRESH_EXPIRES }}" >> .env
         echo "ACCESS_EXPIRES=${{ secrets.ACCESS_EXPIRES }}" >> .env
