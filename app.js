@@ -45,7 +45,7 @@ app.use("/api", [apiMainRouter]);
 app.use(errorHandler);
 
 app.listen(port, () => {
-  console.log(`running http://localhost:${port}`);
+  console.log(`running http://3.84.163.49/${port}`);
 });
 
 module.exports = app;

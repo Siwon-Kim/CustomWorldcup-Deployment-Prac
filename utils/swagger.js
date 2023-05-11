@@ -6,7 +6,7 @@ const doc = {
     "title": "월드컵 어쩌구",
     "description": "17조는 짱짱맨이다",
   },
-  host: "13.125.1.214/",
+  host: "3.84.163.49/",
   schemes: ["http"],
 };
 
